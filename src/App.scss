@@ -1,0 +1,41 @@
+body {
+  color: white;
+  background-color: #282c34;
+  font-size: calc(10px + 2vmin);
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px 10px 50px 10px;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+
+  div {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+}
+
+footer {
+  display: flex;
+  margin-top: 50px;
+  justify-content: center;
+
+  button {
+      height: 40px;
+      margin: 40px;
+      color: green;
+      cursor: pointer;
+      font-weight: bold;
+      padding-left: 30px;
+      padding-right: 30px;
+  }
+}

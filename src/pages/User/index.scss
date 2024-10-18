@@ -1,0 +1,63 @@
+.user-page {
+    main {
+        height: 200px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 20px; 
+
+        div {
+            width: 350px;
+            margin: 0 auto;
+            padding: 10px;
+
+            select {
+                width: 100%;
+                padding: 8px 16px; 
+                border-radius: 4px; 
+                border: 1px solid gray; 
+                background-color: #f8f8f8; 
+                cursor: pointer; 
+                font-size: 16px; 
+                
+                &:focus {
+                    outline: none; 
+                    border-color: black; 
+                }
+            }
+        }
+    }
+
+    footer {
+        display: flex;
+        justify-content: space-between; 
+        padding: 10px;
+
+        .goBack {
+            color: gray;
+            cursor: pointer;
+            background-color: transparent;
+            border: none;
+            
+            &:hover {
+                color: black;
+            }
+        }
+
+        button, select {
+            padding: 8px 16px;
+            border-radius: 4px;
+            border: 1px solid gray;
+        }
+
+        button {
+            background-color: #fff;
+            cursor: pointer;
+            
+            &:hover {
+                background-color: #f0f0f0;
+            }
+        }
+    }
+}
